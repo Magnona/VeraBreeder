@@ -1,0 +1,5 @@
+src/ScottishFoldsCats/bin/
+*.user
+src/ScottishFoldsCats/obj/
+*.suo
+.vs/

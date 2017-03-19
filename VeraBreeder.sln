@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{391FBE1E-0B7C-42C0-AE00-3070A19CB07B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{627E531C-618E-4492-9AE3-88E6D8C5BA61}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "BreederFramework", "src\BreederFramework\BreederFramework.xproj", "{D765B9A6-A243-4666-ACA2-D4359037DDD3}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ScottishFoldsCats", "src\ScottishFoldsCats\ScottishFoldsCats.xproj", "{94273A45-E7D6-40A1-A960-5DF16B2B164D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D765B9A6-A243-4666-ACA2-D4359037DDD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D765B9A6-A243-4666-ACA2-D4359037DDD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D765B9A6-A243-4666-ACA2-D4359037DDD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D765B9A6-A243-4666-ACA2-D4359037DDD3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94273A45-E7D6-40A1-A960-5DF16B2B164D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94273A45-E7D6-40A1-A960-5DF16B2B164D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94273A45-E7D6-40A1-A960-5DF16B2B164D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94273A45-E7D6-40A1-A960-5DF16B2B164D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D765B9A6-A243-4666-ACA2-D4359037DDD3} = {391FBE1E-0B7C-42C0-AE00-3070A19CB07B}
+		{94273A45-E7D6-40A1-A960-5DF16B2B164D} = {391FBE1E-0B7C-42C0-AE00-3070A19CB07B}
+	EndGlobalSection
+EndGlobal
